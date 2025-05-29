@@ -1,0 +1,51 @@
+.error {
+    color: red;
+}
+
+@font-face {
+    font-family: 'Kokila';
+    src: url('../fonts/Kokila.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NotoSansDevanagari-Regular';
+    src: url('../fonts/NotoSansDevanagari-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.text-hindi {
+    font-family: 'NotoSansDevanagari-Regular', sans-serif;
+    /* font-size: 1.1rem; */
+}
+
+a.selector {
+    margin: 10px;
+    padding: 5px 7px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+a.active {
+    background-color: rgb(151, 166, 253);
+    color: #03126d;
+}
+
+.signed-info {
+    background-color: #f1d061;
+    border-radius: 6px;
+    padding: 4px 8px;
+}
+
+.data-missmatched {
+    background-color: #f0e769;
+}
+
+@media screen and (max-width:680px) {
+    .user-menu-layout {
+        display: none !important;
+    }
+}
